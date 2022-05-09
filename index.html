@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nahee </title>
-    <meta name="description" content="welcome to my homepage">
-    <meta name="author" content="nahee">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
 </head>
-<body>
-      
-    <script>
-        getData();
-    async function getData() {
-    const response = await  fetch('14thStreet.csv');
-    const data = await response.text();
-    console.log(data);
 
-    const rows = data.split('\n').slice(1);
-    rows.forEach(elt => {
-        const row = elt.split(',');
-        const name = row[0];
-        const time = row[1];
-        console.log(name, time);
-    });
-}
-      
-            </script>
-       
-       </body>
-     </html>
+<body>
+ <h1>Data of Affected from Covid-19  </h1>
+
+  <p id="demo"></p>
+  
+
+<p>Most people who have coronavirus disease 2019 (COVID-19) recover completely within a few weeks. But some people — even those who had mild versions of the disease — continue to experience symptoms after their initial recovery.</p>
+  
+  <button id="button_A">See the Chart</button>
+<h3 id="heading_A"></h3>
+  
+
+  <canvas id="chart" width="400" height="400"></canvas>
+
+   <button onclick="myFunction()">Try it</button>
+
+  <p id="demo"></p>
+  
+    <script src="script.js"></script>
+
+     
+</body>
+
+</html>
+  
+
+
 
