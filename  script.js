@@ -47,7 +47,7 @@ async function getData() {
 const xs = [];
 const ys = [];
 
-const response = await fetch('national-history.csv');
+const response = await fetch('./national-history.csv');
 const data = await response.text();
 
 const table = data.split('\n').slice(1);
