@@ -1,7 +1,5 @@
 
-var msg; 
-msg = "Hello JavaScript!"; // assigned a string value
-alert(msg); // access a variable
+
 
 const cars = ["2020", "2021"];
 
@@ -10,7 +8,7 @@ for (let x of cars) {
 text += x + "<br>";
 }
 
-document.getElementById("demo").innerHTML = text;
+document.getElementById("demo").innerHTML = text
 
 
 const xlabels = [];
@@ -28,7 +26,7 @@ type: 'bar',
 data: {
 labels:  data.xs,
 datasets: [{
-    label: '# of Votes',
+    label: 'number of deaths',
     data: data.ys,
     backgroundColor:
         'black',
@@ -63,13 +61,4 @@ return {xs,ys};
 }
 
 
-function myFunction() {
-let text;
-let person = prompt("Please enter your name:", "Harry Potter");
-if (person == null || person == "") {
-text = "User cancelled the prompt.";
-} else {
-text = "Hello " + person + "! How are you today?";
-}
-document.getElementById("demo").innerHTML = text;
-}
+
