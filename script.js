@@ -1,7 +1,4 @@
 
-var msg; 
-msg = "Hello JavaScript!"; // assigned a string value
-alert(msg); // access a variable
 
 const cars = ["2020", "2021"];
 
