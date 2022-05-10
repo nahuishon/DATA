@@ -21,7 +21,7 @@ body {
 
 img{
   float: left;
-  width:380px;
+  width:480px;
   height: 300px;
   padding: 0 10px 0 0;
 }
@@ -30,5 +30,14 @@ img{
   text-align:justify;
   font-size: 16px;
   font-family: Monospace;
+}
+
+.h2{
+  font-size: 40px;
+  color:antiquewhite
+}
+
+.p{
+  font-size: 20px;
 }
 
