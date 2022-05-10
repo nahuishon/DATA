@@ -28,7 +28,7 @@ type: 'bar',
 data: {
 labels:  data.xs,
 datasets: [{
-    label: 'Number of Deaths',
+    label: 'Numver of Deaths',
     data: data.ys,
     backgroundColor:
         'black',
@@ -61,5 +61,6 @@ console.log(date, death);
 });
 return {xs,ys};
 }
+
 
 
