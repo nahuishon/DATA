@@ -1,6 +1,5 @@
 
 
-
 const cars = ["2020", "2021"];
 
 let text = "";
@@ -8,7 +7,7 @@ for (let x of cars) {
 text += x + "<br>";
 }
 
-document.getElementById("demo").innerHTML = text
+document.getElementById("demo").innerHTML = text;
 
 
 const xlabels = [];
@@ -26,14 +25,15 @@ type: 'bar',
 data: {
 labels:  data.xs,
 datasets: [{
-    label: 'number of deaths',
+    label: 'Number of Deaths',
     data: data.ys,
     backgroundColor:
         'black',
       
     borderColor: 
         'rgba(255, 99, 132, 1)',
-    borderWidth: 1
+        
+    borderWidth: 4
 }]
 },
 });
